@@ -52,6 +52,10 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				'gradient-start': 'hsl(var(--gradient-start))',
+				'gradient-end': 'hsl(var(--gradient-end))',
+				'tech-blue': 'hsl(var(--tech-blue))',
+				'section-bg': 'hsl(var(--section-bg))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
