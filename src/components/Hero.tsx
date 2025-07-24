@@ -94,9 +94,9 @@ const Hero = () => {
             {/* Background Decorative Elements */}
             <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-gradient-end/30 rounded-full blur-3xl scale-110 opacity-20 animate-pulse"></div>
             
-            <div className="relative mx-auto w-80 h-80 lg:w-[480px] lg:h-[480px]">
+            <div className="relative mx-auto w-80 h-80 lg:w-[400px] lg:h-[400px]">
               {/* Main Profile Image */}
-              <div className="relative w-full h-full rounded-[3rem] overflow-hidden shadow-2xl border-4 border-background group">
+              <div className="relative w-full h-full rounded-[2rem] overflow-hidden shadow-2xl border-4 border-background group">
                 <img 
                   src={profilePhoto} 
                   alt="Laxmikanta Jena - .NET Developer"
