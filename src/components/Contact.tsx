@@ -19,14 +19,14 @@ const Contact = () => {
     {
       icon: <Mail className="text-primary" size={24} />,
       title: 'Email',
-      value: 'laxmikanta.ai@gmail.com',
+      value: 'laxmikanta.techai@gmail.com',
       link: 'mailto:laxmikanta.ai@gmail.com'
     },
     {
       icon: <Phone className="text-primary" size={24} />,
       title: 'Phone',
-      value: '+91 6362023536',
-      link: 'tel:+916362023536'
+      value: '+91 9113899388',
+      link: 'tel:+919113899388'
     },
     {
       icon: <Linkedin className="text-primary" size={24} />,
@@ -233,10 +233,10 @@ const Contact = () => {
                 <p className="text-sm text-muted-foreground text-center">
                   Prefer direct contact? Email me at{' '}
                   <a 
-                    href="mailto:laxmikanta.ai@gmail.com"
+                    href="mailto:laxmikanta.techai@gmail.com"
                     className="text-primary hover:underline font-medium"
                   >
-                    laxmikanta.ai@gmail.com
+                    laxmikanta.techai@gmail.com
                   </a>
                 </p>
               </div>

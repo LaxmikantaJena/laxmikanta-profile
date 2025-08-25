@@ -45,7 +45,7 @@ const About = () => {
                   where I discovered my love for solving complex problems through code.
                 </p>
                 <p>
-                  With 1.5+ years of professional experience at Linova Info Pvt. Ltd., I have honed my skills 
+                  With 1.7+ years of professional experience at Linova Info Pvt. Ltd., I have honed my skills 
                   in building scalable web applications using ASP.NET MVC/Core, working extensively with SQL Server, 
                   and developing robust backend systems that power modern web applications.
                 </p>

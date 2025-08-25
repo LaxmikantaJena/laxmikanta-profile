@@ -7,7 +7,7 @@ const Experience = () => {
     role: '.NET Developer',
     company: 'Linova Info Pvt. Ltd.',
     location: 'Bangalore',
-    duration: 'Jan 2024 – Jun 2025',
+    duration: 'Jan 2024 – Aug 2025',
     responsibilities: [
       'Developed and maintained web applications using ASP.NET MVC/Core framework',
       'Designed and implemented database schemas using SQL Server with optimized stored procedures',

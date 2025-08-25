@@ -46,7 +46,7 @@ const Hero = () => {
               </h1>
               
               <p className="text-xl text-muted-foreground max-w-xl leading-relaxed">
-                I'm a passionate <span className="text-primary font-semibold">.NET Developer</span> with 1.5+ years of experience in building scalable web applications and backend systems using ASP.NET MVC/Core, SQL Server, and C#.
+                I'm a passionate <span className="text-primary font-semibold">.NET Developer</span> with 1.7+ years of experience in building scalable web applications and backend systems using ASP.NET MVC/Core, SQL Server, and C#.
               </p>
             </div>
 
@@ -73,7 +73,7 @@ const Hero = () => {
               {[
                 { icon: Github, href: "https://github.com/LaxmikantaJena", label: "GitHub" },
                 { icon: Linkedin, href: "https://linkedin.com/in/laxmikanta-jena-878b6127b", label: "LinkedIn" },
-                { icon: Mail, href: "mailto:laxmikanta.ai@gmail.com", label: "Email" }
+                { icon: Mail, href: "mailto:laxmikanta.techai@gmail.com", label: "Email" }
               ].map((social, index) => (
                 <a 
                   key={index}
@@ -132,7 +132,7 @@ const Hero = () => {
               </p>
               <div className="flex items-center text-sm text-muted-foreground">
                 <Mail size={16} className="mr-3 text-primary" />
-                <span className="font-medium">+91 6362023536</span>
+                <span className="font-medium">+91 9113899388</span>
               </div>
             </div>
           </div>

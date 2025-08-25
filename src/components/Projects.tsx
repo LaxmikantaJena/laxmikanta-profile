@@ -6,38 +6,37 @@ import { Button } from '@/components/ui/button';
 const Projects = () => {
   const projects = [
     {
-      title: 'FinBridge – Loan & EMI System',
-      description: 'A comprehensive financial management system for handling loan applications, EMI calculations, and payment tracking. Built with ASP.NET MVC and SQL Server for robust data management.',
+      title: 'ArogyaCare-IQ',
+      description: 'A smart healthcare management system that streamlines patient registration, appointment booking, telemedicine, and remote health monitoring. Built with ASP.NET MVC and SQL Server, it ensures secure data handling, role-based access, and insightful dashboards for doctors, patients, and administrators.',
       techStack: ['ASP.NET MVC', 'C#', 'SQL Server', 'JavaScript', 'Bootstrap'],
       role: 'Full-Stack Developer',
       responsibilities: [
-        'Designed and implemented loan application workflow',
-        'Developed EMI calculation algorithms',
-        'Created user-friendly dashboard for loan management',
-        'Implemented secure payment processing modules'
+       
       ],
       status: 'Professional Project',
-      category: 'Financial System'
+      category: 'Healthcare Management System'
     },
     {
-      title: 'SRT Engineering Stock – Sales Entry',
-      description: 'An inventory and sales management system for engineering stock management. Features include stock tracking, sales entry, invoice generation, and comprehensive reporting.',
-      techStack: ['ASP.NET Core', 'C#', 'SQL Server', 'jQuery', 'AJAX'],
+      title: 'Loan & Emi Management System',
+      description: 'A comprehensive financial management system for handling loan applications, EMI calculations, and payment tracking. Built with ASP.NET MVC and SQL Server for robust data management.',
+      techStack: ['ASP.NET MVC', 'C#','ADO .NET','JAVASCRIPT', 'SQL Server', 'jQuery', 'AJAX'],
       role: 'Backend Developer',
       responsibilities: [
-        'Developed inventory management modules',
-        'Implemented sales entry and invoice generation',
-        'Created real-time stock tracking system',
-        'Built comprehensive reporting dashboard'
+         'Developed modules for patient registration, appointments, and telemedicine using ASP.NET MVC.',
+        'Designed and optimized SQL Server database with stored procedures for secure data handling.Developed EMI calculation algorithms',
+        'Implemented role-based authentication and authorization for different user types.',
+        'Integrated remote health monitoring and alert notifications',
       ],
       status: 'Professional Project',
-      category: 'Inventory Management'
+      category: 'Financial Management System',
+       github: 'https://github.com/LaxmikantaJena',
+      demo: '#'
     },
     {
       title: 'Product Billing System',
       description: 'A complete billing and invoice management system with product catalog, customer management, and automated billing features. Personal project showcasing full-stack development skills.',
       techStack: ['ASP.NET MVC', 'C#', 'SQL Server', 'HTML/CSS', 'JavaScript'],
-      role: 'Solo Developer',
+      role: 'Backend Developer',
       responsibilities: [
         'Designed complete system architecture',
         'Implemented product catalog and pricing',
@@ -45,9 +44,8 @@ const Projects = () => {
         'Created automated billing and invoice generation'
       ],
       status: 'Personal Project',
-      category: 'Billing System',
-      github: 'https://github.com/LaxmikantaJena',
-      demo: '#'
+      category: 'Billing System'
+     
     }
   ];
 
