@@ -17,16 +17,16 @@ const Contact = () => {
 
   const contactInfo = [
     {
-      icon: <Mail className="text-primary" size={24} />,
-      title: 'Email',
-      value: 'laxmikanta.techai@gmail.com',
-      link: 'mailto:laxmikanta.ai@gmail.com'
-    },
-    {
       icon: <Phone className="text-primary" size={24} />,
       title: 'Phone',
       value: '+91 9113899388',
       link: 'tel:+919113899388'
+    },
+      {
+      icon: <Mail className="text-primary" size={24} />,
+      title: 'Email',
+      value: 'laxmikanta.techai@gmail.com',
+      link: 'mailto:laxmikanta.ai@gmail.com'
     },
     {
       icon: <Linkedin className="text-primary" size={24} />,
