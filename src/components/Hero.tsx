@@ -46,7 +46,7 @@ const Hero = () => {
               </h1>
               
               <p className="text-xl text-muted-foreground max-w-xl leading-relaxed">
-                I'm a passionate <span className="text-primary font-semibold">.NET Developer</span> with 1.7+ years of experience in building scalable web applications and backend systems using ASP.NET MVC/Core, SQL Server, and C#.
+                I'm a passionate <span className="text-primary font-semibold">.NET Developer</span> with 2.1+ years of experience in building scalable web applications and backend systems using ASP.NET MVC/Core, SQL Server, and C#.
               </p>
             </div>
 
