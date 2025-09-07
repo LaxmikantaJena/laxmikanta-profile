@@ -58,14 +58,30 @@ const Hero = () => {
                 View Portfolio
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={18} />
               </Button>
-              <Button 
+              {/* <Button 
                 variant="outline"
                 onClick={() => scrollToSection('#contact')}
                 className="px-8 py-4 text-lg font-medium border-2 border-primary/20 hover:border-primary hover:bg-primary/5 transition-all duration-300"
               >
                 <Download className="mr-2" size={18} />
                 Download CV
-              </Button>
+              </Button> */}
+              <Button 
+  asChild
+  variant="outline"
+  className="px-8 py-4 text-lg font-medium border-2 border-primary/20 hover:border-primary hover:bg-primary/5 transition-all duration-300"
+>
+  <a 
+    href="/cv/LAXMI_KANTA_JENA.pdf" 
+    download="LAXMI_KANTA_JENA.pdf" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <Download className="mr-2" size={18} />
+    Download CV
+  </a>
+</Button>
+
             </div>
 
             {/* Enhanced Social Links */}
