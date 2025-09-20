@@ -7,7 +7,7 @@ const Experience = () => {
     role: '.NET Developer',
     company: 'Linova Info Pvt. Ltd.',
     location: 'Bangalore',
-    duration: 'July 2023 – Aug 2025',
+    duration: 'Mar 2024 – Sep 2025',
     responsibilities: [
       'Developed and maintained web applications using ASP.NET MVC/Core framework',
       'Designed and implemented database schemas using SQL Server with optimized stored procedures',
@@ -23,6 +23,7 @@ const Experience = () => {
       'ASP.NET Core',
       'C#',
       'SQL Server',
+      'Entity Framework',
       'ADO.NET',
       'JavaScript',
       'jQuery',
@@ -30,7 +31,8 @@ const Experience = () => {
       'HTML/CSS',
       'Bootstrap',
       'Stored Procedures',
-      'MVC Architecture'
+      'MVC Architecture',
+      'React'
     ]
   };
 
